@@ -38,6 +38,7 @@ cyber-journey/
 ├── labs/            # Authorized lab notes and write-ups
 ├── networking/      # Networking fundamentals
 ├── nmap/            # Nmap concepts and practice notes
+├── projects/        # Larger, independently documented projects
 ├── wireshark/       # Packet-analysis notes and filters
 └── tools/           # Python utilities and Bash scripts
 ```
