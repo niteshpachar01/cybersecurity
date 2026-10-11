@@ -20,8 +20,6 @@ This directory documents hands-on practice and key takeaways from cybersecurity 
 | Wireshark: Packet Operations | [Room summary](./tryhackme/wireshark-packet-operations/) | Completion reported in learning log; no raw capture committed |
 | Nmap: Live Host Discovery | [Room summary](./tryhackme/nmap-live-host-discovery/) | Exact target and output not retained |
 | Nmap: Basic Port Scans | [Room summary](./tryhackme/nmap-basic-port-scans/) | Exact target and output not retained |
-| Wireshark basics and packet operations | [Wireshark notes](./wireshark/README.md), [Wireshark: The Basics](./tryhackme/wireshark-the-basics/README.md), and [Packet Operations](./tryhackme/wireshark-packet-operations/README.md) | No raw capture file is included |
-| Nmap host discovery and basic port scans | [Nmap notes](./nmap/README.md), [Live Host Discovery](./tryhackme/nmap-live-host-discovery/README.md), and [Basic Port Scans](./tryhackme/nmap-basic-port-scans/README.md) | Exact target IP and per-port output were not retained |
 
 ## Write-up standards
 
