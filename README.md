@@ -20,8 +20,8 @@ My hands-on cybersecurity learning portfolio, documenting fundamentals, authoriz
 - **[Networking notes](./networking/README.md)** — OSI model, addressing, TCP/UDP, DNS, HTTP
 - **[Bandit notes](./labs/bandit/README.md)** — SSH, Linux commands, search, and shell workflows
 - **[TryHackMe notes](./labs/tryhackme/)** — Linux, Wireshark, and Nmap learning summaries
-- **[Nmap notes](./nmap/README.md)** — host discovery and basic port scans
-- **[Wireshark notes](./wireshark/README.md)** — packet inspection and filters
+- **[Nmap lab notes](./labs/nmap/README.md)** — host discovery and basic port scans
+- **[Wireshark lab notes](./labs/wireshark/README.md)** — packet inspection and filters
 - **[Labs and write-ups](./labs/README.md)** — platform and local-lab documentation
 
 ## Published Technical Writing
