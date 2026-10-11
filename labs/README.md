@@ -1,23 +1,24 @@
 # Cybersecurity Labs & Write-ups
 
-This directory contains detailed notes, solution write-ups, and key takeaways from various cybersecurity labs, practice platforms, and hands-on exercises.
+This directory documents hands-on practice and key takeaways from cybersecurity learning platforms and authorized local labs.
 
-## Overview
+## Platforms and lab areas
 
-- **Purpose**: Document methodology, commands used, and vulnerabilities exploited during lab exercises.
-- **Platforms Covered**: TryHackMe, Hack The Box, PortSwigger Academy, Local Range Labs.
+- [TryHackMe](./tryhackme/) — learning-room notes and practice summaries
+- [Hack The Box](./hackthebox/) — future authorized lab write-ups
+- [PortSwigger Web Security Academy](./portswigger/) — future web-security lab notes
+- Local lab exercises — document separately when completed and evidence is available
 
-## Directory Structure
+## Recorded learning
 
-```text
-labs/
-├── tryhackme/       # THM room write-ups and walkthroughs
-├── hackthebox/      # HTB machine analysis and reports
-├── portswigger/     # Web security lab solutions
-└── local-labs/      # Custom home lab setups and testing
+| Topic | What is documented | Evidence limitation |
+| --- | --- | --- |
+| Linux Fundamentals | [TryHackMe Linux notes](./tryhackme/linux-fundamentals/) | Detailed personal notes are also kept in Notion |
+| Wireshark basics and packet operations | [Wireshark notes](../wireshark/README.md) | No raw capture file or screenshots are included unless separately committed |
+| Nmap host discovery and basic port scans | [Nmap notes](../nmap/README.md) | Exact target IP and per-port output were not retained in the progress record |
 
-## Index of Labs
+## Write-up standards
 
-| Date | Platform / Source | Lab Name | Topic / Focus | Difficulty |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-26 | TryHackMe | [Linux Fundamentals Pt 1 & 2](./tryhackme/linux-fundamentals) | Linux CLI & Permissions | Easy |
+For each new lab, record the objective, authorized scope, commands or filters used, observations, interpretation, limitations, and lessons learned. Redact public IPs, credentials, tokens, personal data, and sensitive packet contents. Never invent output or claim a task was completed without evidence.
+
+Not every study day requires a separate lab folder; add one when a distinct exercise has useful reproducible notes.
