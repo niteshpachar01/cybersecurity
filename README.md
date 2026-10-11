@@ -23,7 +23,6 @@ My hands-on cybersecurity learning portfolio, documenting fundamentals, authoriz
 - **[Nmap notes](./nmap/README.md)** — host discovery and basic port scans
 - **[Wireshark notes](./wireshark/README.md)** — packet inspection and filters
 - **[Labs and write-ups](./labs/README.md)** — platform and local-lab documentation
-- **[Day 1–17 progress log](./docs/progress/day-01-to-17.md)** — learning milestones and evidence status
 
 ## Published Technical Writing
 
@@ -34,12 +33,9 @@ My hands-on cybersecurity learning portfolio, documenting fundamentals, authoriz
 
 ```text
 cyber-journey/
-├── docs/progress/   # Day-by-day milestone log
 ├── labs/            # Authorized lab notes and write-ups
 ├── networking/      # Networking fundamentals
-├── nmap/            # Nmap concepts and practice notes
 ├── projects/        # Larger, independently documented projects
-├── wireshark/       # Packet-analysis notes and filters
 └── tools/           # Python utilities and Bash scripts
 ```
 
