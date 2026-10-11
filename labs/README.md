@@ -4,6 +4,7 @@ This directory documents hands-on practice and key takeaways from cybersecurity 
 
 ## Platforms and lab areas
 
+- [Bandit](./bandit/) — command-line and SSH learning summary
 - [TryHackMe](./tryhackme/) — learning-room notes and practice summaries
 - [Hack The Box](./hackthebox/) — future authorized lab write-ups
 - [PortSwigger Web Security Academy](./portswigger/) — future web-security lab notes
@@ -14,6 +15,11 @@ This directory documents hands-on practice and key takeaways from cybersecurity 
 | Topic | What is documented | Evidence limitation |
 | --- | --- | --- |
 | Linux Fundamentals | [TryHackMe Linux notes](./tryhackme/linux-fundamentals/) | Detailed personal notes are also kept in Notion |
+| Bandit | [Bandit summary](./bandit/README.md) | Summary reflects reported progress; no passwords or secrets are included |
+| Wireshark: The Basics | [Room summary](./tryhackme/wireshark-the-basics/) | Completion reported in learning log; not independently verified in dashboard |
+| Wireshark: Packet Operations | [Room summary](./tryhackme/wireshark-packet-operations/) | Completion reported in learning log; no raw capture committed |
+| Nmap: Live Host Discovery | [Room summary](./tryhackme/nmap-live-host-discovery/) | Exact target and output not retained |
+| Nmap: Basic Port Scans | [Room summary](./tryhackme/nmap-basic-port-scans/) | Exact target and output not retained |
 | Wireshark basics and packet operations | [Wireshark notes](../wireshark/README.md) | No raw capture file or screenshots are included unless separately committed |
 | Nmap host discovery and basic port scans | [Nmap notes](../nmap/README.md) | Exact target IP and per-port output were not retained in the progress record |
 
