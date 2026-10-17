@@ -1,44 +1,28 @@
-# 📂 File Listing Tool (filelisting.py)
+# File Listing Tool
 
-A simple Python utility that lists the files and directories in the current working directory.
+A small Python command-line utility that lists entries in a directory.
 
----
+## Requirements
 
-## 📸 Usage Screenshot
+- Python 3.8 or newer
+- No third-party packages
 
-Below is a preview of the tool output in action:
+## Run
 
-<img width="958" height="539" alt="File listing tool output" src="https://github.com/user-attachments/assets/3d41b444-5bc3-49ce-b761-78b4d2fcc234" />
+From this directory:
 
----
+```powershell
+python .\filelisting.py
+```
 
-## ⚙️ Features
+To inspect the script before use, open `filelisting.py`. If the script is updated to accept a directory argument, use its `--help` output for the supported options rather than assuming flags.
 
-- **Directory Listing**: Displays the entries in the current working directory.
-- **Simple Recon Utility**: Useful for quickly checking what files and directories are present before further analysis.
+## Learning goals
 
-> **Note:** The current version lists only the immediate contents of the working directory; it does not recursively scan subdirectories.
+- Work with filesystem paths
+- List directory contents with Python
+- Practice documenting and running a small utility
 
----
+## Safe use
 
-## 🚀 How to Run
-
-1. Open your terminal and navigate to the tool directory:
-
-   ```bash
-   cd tools/filelisting
-   ```
-
-2. Run the script:
-
-   ```bash
-   python filelisting.py
-   ```
-
----
-
-## 🧠 What I Learned
-
-- Using Python's os module to interact with the filesystem.
-- Using os.listdir() to retrieve directory contents.
-- Running a Python script from the command line.
+Run it against directories you are allowed to inspect. Avoid committing private filenames, sensitive directory listings, credentials, or personal data.
