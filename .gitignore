@@ -1,0 +1,6 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Generated SSH log analyzer report
+/tools/log-analyzer/report.csv
