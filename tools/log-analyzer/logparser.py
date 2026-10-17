@@ -37,11 +37,11 @@ def status_for(count, threshold=5):
 
 
 def write_report(counts, report_path, threshold=5):
-    """Write a CSV report ordered by descending count."""
+    """Write a CSV report ordered by descending count, then IP address."""
     with Path(report_path).open("w", newline="", encoding="utf-8") as output:
         writer = csv.writer(output)
         writer.writerow(["IP Address", "Failed Attempts", "Status"])
-        for address, count in counts.most_common():
+        for address, count in sorted(counts.items(), key=lambda item: (-item[1], item[0])):
             writer.writerow([address, count, status_for(count, threshold)])
 
 
