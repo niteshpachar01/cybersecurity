@@ -1,38 +1,36 @@
-# Tools Directory
+# Security Tools
 
-This directory contains small Python utilities developed during the cybersecurity learning journey. Each tool is organized in its own folder with source code and documentation.
+A collection of small Python utilities and Bash scripts built while learning cybersecurity fundamentals. Each tool has its own folder and README with usage details.
 
 ## Available Tools
 
 | Tool | Purpose | Directory |
 | --- | --- | --- |
-| **File Listing** | Lists files in the current directory | [filelisting](./filelisting/) |
-| **File Hashing** | Calculates MD5 and SHA-256 hashes | [filehashing](./filehashing/) |
-| **Threaded TCP Port Scanner** | Scans an authorized TCP port range concurrently | [portscanner](./portscanner/) |
-| **Bash Scripts** | Small Bash scripts for system info, permissions, and backups | [bashscripts](./bashscripts/) |
+| **File Listing** | Lists files in a selected directory | [filelisting](./filelisting/) |
+| **File Hashing** | Calculates file hashes, including MD5 and SHA-256 | [filehashing](./filehashing/) |
+| **Threaded TCP Port Scanner** | Checks a specified TCP port range on authorized targets | [portscanner](./portscanner/) |
+| **Log Analyzer** | Parses sample authentication logs to identify login-related events | [log-analyzer](./log-analyzer/) |
+| **Bash Scripts** | Reports system information and permissions, and backs up directories | [bashscripts](./bashscripts/) |
 
-## Structure
-
-Each tool follows the same structure:
+## Project Layout
 
 ```text
 tools/
-├── README.md
-├── filelisting/
-│   ├── filelisting.py
-│   └── readme.md
+├── bashscripts/
+│   ├── directory_backup/
+│   ├── permission_report/
+│   └── system_info/
 ├── filehashing/
-│   ├── filehashing.py
-│   └── README.md
-└── portscanner/
-    ├── portscanner.py
-    └── README.md
+├── filelisting/
+├── log-analyzer/
+├── portscanner/
+└── README.md
 ```
 
-## Usage
+## How to Use
 
-Open the README inside the required tool directory for installation, usage, implementation details, and learning objectives.
+Open the README in the relevant tool directory for its requirements, usage examples, implementation notes, and learning objectives. Run scripts only in environments you control.
 
-## Security Notice
+## Responsible Use
 
-These tools are intended for **learning and authorized security testing only**. Do not scan, probe, or otherwise test systems without explicit permission.
+These tools are educational and intended for defensive learning or authorized testing. Do not scan, probe, or analyze systems or data without permission. Use synthetic or appropriately sanitized logs; never commit credentials, tokens, private personal data, or sensitive real-world log contents.
